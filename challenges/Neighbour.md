@@ -37,7 +37,7 @@ Now, we are in the profile page of the guest:
 
 We have the URL ```http://10.10.125.156/profile.php?user=guest```
 
-And `guest` is the id of the guest.
+And `guest` is the user ID of the guest.
 
 And when we press `ctrl+U` again on the guest's profile page, we see the html code:\
 ![alt text](neighbour4.png)
@@ -45,9 +45,9 @@ We see:
 ```html
     <!-- admin account could be vulnerable, need to update -->
 ```
-so from this commented line, we know the id of the administrator is `admin`.
+so from this commented line, we know the user ID of the administrator is `admin`.
 
-Thus, by definition of IDOR, we change the URL from the userid of `guest` to `admin`, i.e.:
+Thus, by definition of IDOR, we change the URL from the user ID of `guest` to `admin`, i.e.:
 ```http://10.10.125.156/profile.php?user=admin```
 
 <!-- ![alt text](neighbour5.png) -->
