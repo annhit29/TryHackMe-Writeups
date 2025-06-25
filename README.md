@@ -1,1 +1,1 @@
-This is the repository for the TryHackMe writeups.
+This is the repository for TryHackMe writeups.
