@@ -1,7 +1,7 @@
 This is the [TryHackMe Neighbour challenge](https://tryhackme.com/room/compiled).
 
 \
-Q: What's an IDOR?
+Q: What's an IDOR?\
 A: Insecure direct object references (IDOR) is a type of access control vulnerability where an attacker can gain unauthorized access to resources by manipulating user input, usually in URLs, form data, or APIs.
 
 How it works:
