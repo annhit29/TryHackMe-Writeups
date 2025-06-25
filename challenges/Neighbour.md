@@ -14,7 +14,7 @@ We connect to the server.
 And we see this as the login page:
 ![alt text](neighbour1.png)
 
-As we don't have an account, we use the guest account!'
+As we don't have an account, we use the guest account!'\
 To do this, we press `ctrl+U`
 
 Then we see
